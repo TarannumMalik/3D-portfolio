@@ -834,6 +834,9 @@ padding: .7rem;
     footer p{
         font-size: .8rem;
     }
+    .portfolio-gallery{
+        grid-template-columns: repeat(2, 1fr);
+    }
  }
  @media screen and (max-width:420px) {
     html{
@@ -853,5 +856,8 @@ padding: .7rem;
     }
     .img-about p{
         font-size: 1rem;
+    }
+    .portfolio-gallery{
+        grid-template-columns: repeat(1, 1fr);
     }
  }
